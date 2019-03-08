@@ -1,1 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2377,5): error MSB3779: 引用的 SDK“Microsoft.VCLibs.Desktop, Version=14.0”不支持正在生成的项目的处理器架构“arm”。请考虑将项目的目标处理器架构更改为 SDK 支持的某个架构(在 Visual Studio 中，此操作可以通过配置管理器完成):“x86, x64”。
