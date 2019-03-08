@@ -31,6 +31,16 @@ String^ stringToString(const std::string input)
 	return (ref new Platform::String(w_chars));
 }
 
+//Platform::String转std::string
+const char* StringTostring(String^ input)
+{
+	Platform::String^ str = input;
+	std::wstring wStr(str->Begin());
+	std::string stdStr(wStr.begin(), wStr.end());
+	const char* charStr = stdStr.c_str();
+	return charStr;
+}
+
 String ^ ffmpegMain::getConfiguration()
 {
 	const char *s=avcodec_configuration();
