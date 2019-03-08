@@ -11,6 +11,7 @@ namespace FFmpegRuntimeForUWP
 
     public:
 		static String^ getVersionInfo();
+		static String^ getConfiguration();
 		virtual ~ffmpegMain();
 	};
 }
