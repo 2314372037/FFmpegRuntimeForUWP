@@ -34,7 +34,7 @@
 /ARM/Debug
 /x64/Debug
 
-#Debug为x86调试输出目录
+#Debug=/x86/Debug
 /Debug
 
 /.vs/FFmpegRuntimeForUWP/v15
