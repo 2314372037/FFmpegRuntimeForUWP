@@ -7,15 +7,27 @@ extern "C"
 #include "libavformat/avformat.h"
 }
 
-namespace winrt::FFmpegRuntimeForUWP::implementation
-{
-    int32_t Class::MyProperty()
-    {
-        throw hresult_not_implemented();
-    }
+using namespace winrt::FFmpegRuntimeForUWP::implementation;
 
-    void Class::MyProperty(int32_t /* value */)
-    {
-        throw hresult_not_implemented();
-    }
+FFmpegMain::FFmpegMain()
+{
+
+}
+
+FFmpegMain::~FFmpegMain()
+{
+
+}
+
+//获取配置
+void FFmpegMain::getConfiguration()
+{
+	const char* conf = avcodec_configuration();
+
+}
+
+//获取版本信息
+void FFmpegMain::getVersionInfo()
+{
+
 }

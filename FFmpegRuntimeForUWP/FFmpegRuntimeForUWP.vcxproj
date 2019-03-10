@@ -119,6 +119,7 @@
     <ClInclude Include="FFmpegMain.h">
       <DependentUpon>FFmpegMain.idl</DependentUpon>
     </ClInclude>
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -128,6 +129,7 @@
       <DependentUpon>FFmpegMain.idl</DependentUpon>
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="FFmpegMain.idl" />

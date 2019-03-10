@@ -1,21 +1,19 @@
 ﻿#pragma once
 
-#include "Class.g.h"
+#include "FFmpegMain.g.h"
 
 namespace winrt::FFmpegRuntimeForUWP::implementation
 {
-    struct Class : ClassT<Class>
-    {
-        Class() = default;
+	class FFmpegMain
+	{
+	public:
+		FFmpegMain();
+		~FFmpegMain();
 
-        int32_t MyProperty();
-        void MyProperty(int32_t value);
-    };
-}
+		static void getConfiguration();
+		static void getVersionInfo();
 
-namespace winrt::FFmpegRuntimeForUWP::factory_implementation
-{
-    struct Class : ClassT<Class, implementation::Class>
-    {
-    };
+	private:
+		
+	};
 }

@@ -1,9 +1,8 @@
 namespace FFmpegRuntimeForUWP
 {
     [default_interface]
-    runtimeclass Class
+    runtimeclass FFmpegMain
     {
-        Class();
-        Int32 MyProperty;
+
     }
 }
