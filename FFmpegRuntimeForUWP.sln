@@ -3,41 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegRuntimeForUWP", "FFmpegRuntimeForUWP.vcxproj", "{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegRuntimeForUWP", "FFmpegRuntimeForUWP\FFmpegRuntimeForUWP.vcxproj", "{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
-		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|ARM = Release|ARM
-		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|ARM.ActiveCfg = Debug|ARM
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|ARM.Build.0 = Debug|ARM
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|ARM64.Build.0 = Debug|ARM64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|x64.ActiveCfg = Debug|x64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|x64.Build.0 = Debug|x64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|x86.ActiveCfg = Debug|Win32
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Debug|x86.Build.0 = Debug|Win32
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|ARM.ActiveCfg = Release|ARM
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|ARM.Build.0 = Release|ARM
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|ARM64.ActiveCfg = Release|ARM64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|ARM64.Build.0 = Release|ARM64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|x64.ActiveCfg = Release|x64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|x64.Build.0 = Release|x64
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|x86.ActiveCfg = Release|Win32
-		{0130D903-9A9E-4AE3-B8B0-FE2C9C372A3F}.Release|x86.Build.0 = Release|Win32
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Debug|ARM.Build.0 = Debug|ARM
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Debug|x64.ActiveCfg = Debug|x64
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Debug|x64.Build.0 = Debug|x64
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Debug|x86.ActiveCfg = Debug|Win32
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Debug|x86.Build.0 = Debug|Win32
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Release|ARM.ActiveCfg = Release|ARM
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Release|ARM.Build.0 = Release|ARM
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Release|x64.ActiveCfg = Release|x64
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Release|x64.Build.0 = Release|x64
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Release|x86.ActiveCfg = Release|Win32
+		{76CBE8CC-32EA-4BFF-A0E7-AEC8B6726BCF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8C66B609-C7B4-46D1-B2EB-78EB9471F664}
+		SolutionGuid = {D6333460-07B3-4E2F-9F6D-791C1F765656}
 	EndGlobalSection
 EndGlobal
