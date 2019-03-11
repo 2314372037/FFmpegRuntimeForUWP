@@ -9,6 +9,8 @@ extern "C"
 
 using namespace winrt::FFmpegRuntimeForUWP::implementation;
 
+//我需要更多cppwinrt教程(╯‵□′)╯︵┻━┻
+
 FFmpegMain::FFmpegMain()
 {
 

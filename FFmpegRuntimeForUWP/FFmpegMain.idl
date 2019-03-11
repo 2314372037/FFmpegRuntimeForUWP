@@ -1,8 +1,9 @@
 namespace FFmpegRuntimeForUWP
-{
+{//’‚ « ≤√¥∞°
     [default_interface]
     runtimeclass FFmpegMain
     {
-
+		void getConfiguration();
+		void getVersionInfo();
     }
 }
