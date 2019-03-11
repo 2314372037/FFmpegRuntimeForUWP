@@ -13,7 +13,7 @@ using namespace winrt::FFmpegRuntimeForUWP::implementation;
 
 FFmpegMain::FFmpegMain()
 {
-
+	wprintf_s(L"Hello World!\n");
 }
 
 FFmpegMain::~FFmpegMain()
