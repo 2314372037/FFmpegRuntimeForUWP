@@ -1,13 +1,18 @@
 namespace FFmpegRuntimeForUWP
 {
+
     [default_interface]
     runtimeclass FFmpegMain
     {
 		FFmpegMain();
 
 		static void getConfiguration();
-		static winrt::hstring getVersionInfo();
+
+		
+		static void getVersionInfo();
 		static FFmpegMain getFMInstance();
+
+
     }
 
 }

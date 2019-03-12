@@ -33,7 +33,7 @@ std::string FFmpegMain::getConfiguration()
 winrt::hstring FFmpegMain::getVersionInfo()
 {
 	std::string versionInfo = "RuntimeComponentVersion 2019.3.12";
-	return strToHstr(versionInfo);
+	return utils::strToHstr(versionInfo);
 }
 
 FFmpegMain FFmpegMain::getFMInstance()
