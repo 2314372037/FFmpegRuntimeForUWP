@@ -4,16 +4,20 @@
 
 namespace winrt::FFmpegRuntimeForUWP::implementation
 {
-	class FFmpegMain
+	struct FFmpegMain : FFmpegMainT<FFmpegMain>
 	{
-	public:
 		FFmpegMain();
 		~FFmpegMain();
 
-		static void getConfiguration();
-		static void getVersionInfo();
+		static std::string getConfiguration();
+		static winrt::hstring getVersionInfo();
+		static FFmpegMain getFMInstance();
+	};
+}
 
-	private:
-		
+namespace winrt::FFmpegRuntimeForUWP::factory_implementation
+{
+	struct FFmpegMain : FFmpegMainT<FFmpegMain,implementation::FFmpegMain>
+	{
 	};
 }

@@ -1,5 +1,6 @@
 ﻿#include "pch.h"
 #include "FFmpegMain.h"
+#include "utils.h"
 
 extern "C"
 {
@@ -22,14 +23,20 @@ FFmpegMain::~FFmpegMain()
 }
 
 //获取配置
-void FFmpegMain::getConfiguration()
+std::string FFmpegMain::getConfiguration()
 {
 	const char* conf = avcodec_configuration();
-
+	return conf;
 }
 
 //获取版本信息
-void FFmpegMain::getVersionInfo()
+winrt::hstring FFmpegMain::getVersionInfo()
 {
+	std::string versionInfo = "RuntimeComponentVersion 2019.3.12";
+	return strToHstr(versionInfo);
+}
 
+FFmpegMain FFmpegMain::getFMInstance()
+{
+	return FFmpegMain();
 }
