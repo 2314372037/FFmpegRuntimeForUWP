@@ -9,7 +9,7 @@ namespace FFmpegRuntimeForUWP
 		static void getConfiguration();
 
 		
-		static void getVersionInfo();
+		static Object getVersionInfo();
 		static FFmpegMain getFMInstance();
 
 
